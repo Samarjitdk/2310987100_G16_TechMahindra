@@ -33,26 +33,36 @@ html,body{
 .body1{
     background-color: rgba(142, 80, 63, 0.466);
     height: 640px;
-    width: 100%;
-    overflow: hidden;
+    width: 100vw;
+    padding: 20px;
+    /* overflow: hidden; */
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content:space-around;
 }
 
 .img{
-    height: 100px;
-    width: 100px;
-    border: 20px;
+    height: 300px;
+    width: 350px;
+    overflow: hidden;
+    border: 5px solid blue;
     border-radius: 20px;
-    border-color: black;
+    /* margin-right: 200px; */
+}
+
+img{
+    height: 100%;
+    width: 100%;
 }
 
 .desc{
-    height: 100px;
-    width: 100px;
-    border: 20px;
+    height: 300px;
+    width: 350px;
+    /* margin-right: 200px; */
+    padding: 5px;
+    border: 3px solid black;
     border-radius: 20px;
-    border-color: black;
+
 
 }
 

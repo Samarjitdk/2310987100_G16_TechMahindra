@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  .bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/*set a link to give people using screen readers an option to skip the navigation and go directly to the main page content */
+.skip-to-main-content {
+  margin-left: -900px;
+}
+
+.back {
+  /* background-image: url(/codebase/2310987100_G16_TechMahindra/Lec2_05022025/img/keyboard-5017973_1920.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: 1; */
+  background-color: rgba(192, 191, 190, 0.822);
+}
+
+/* Fix navigation to create a sticky nav bar */
+nav {
+  /* position: fixed; */
+  /* margin-top: -20px; */
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 0 25px;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display-style: none;
+}
+
+nav li {
+  display: inline-block;
+  width: 100px;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+nav li:active {
+  background-color: #333333;
+}
+
+nav li:hover {
+  background-color: #333333;
+}
+
+#name {
+  font-size: 30px;
+  margin-right: 45%;
+  font-stretch: 10px;
+  transition: ease-in-out 1s;
+}
+
+#name:hover {
+  letter-spacing: 3px;
+}
+
+nav button {
+  display: none;
+}
+
+/* make the nav bar adapt to small screen sizes */
+@media (max-width: 500px) {
+  nav li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+  }
+
+  nav {
+    padding: 10px 0 0 0;
+  }
+}
+
+/* BODY CONTAINER CSS */
+
+.body-container {
+  border: 3px solid cyan;
+  padding: 20px;
+}
+
+.myprofile-container {
+  border: 3px solid blue;
+  margin-top: 40px;
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
+.description-container {
+  border: 3px solid red;
+  height: 400px;
+  width: 75%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.profile-img-container {
+  border: 3px solid violet;
+  width: 25%;
+  height: 400px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}

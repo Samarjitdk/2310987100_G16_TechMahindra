@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   box-sizing: border-box;
   .bona-nova-sc-regular {
     font-family: "Bona Nova SC", serif;
@@ -30,7 +30,7 @@ body {
   background-position: center;
   filter: blur(2px);
   z-index: 1; */
-  background-color: rgba(192, 191, 190, 0.822);
+  background-color: rgb(16, 16, 16);
 }
 
 /* Fix navigation to create a sticky nav bar */
@@ -38,7 +38,7 @@ nav {
   /* position: fixed; */
   /* margin-top: -20px; */
   width: 100%;
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
   padding: 0 25px;
   z-index: 1;
 }
@@ -73,10 +73,11 @@ nav li:hover {
   margin-right: 45%;
   font-stretch: 10px;
   transition: ease-in-out 1s;
+  letter-spacing: 1px;
 }
 
 #name:hover {
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 nav button {
@@ -118,6 +119,17 @@ nav button {
   width: 75%;
   font-size: 20px;
   padding: 10px;
+  text-align: center;
+  align-content: center;
+}
+
+.n1 {
+  font-size: 60px;
+  animation: mymove 5s infinite;
+}
+
+#n2 {
+  color: red;
 }
 
 .profile-img-container {
@@ -129,4 +141,65 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .myprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-img-container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .myprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-container {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .profile-img-container {
+    width: 350px;
+  }
+  /* img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+      } */
+}
+
+@media screen and (max-width: 485px) {
+  .myprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-container {
+    font-size: 20px;
+  }
+
+  .profile-img-container {
+    height: 250px;
+    width: 250px;
+  }
+
+  .n1 {
+    font-size: 40px;
+  }
 }

@@ -1,0 +1,117 @@
+// console.log(xyz);
+// function sumOfTwo(10,16);
+// var xyz = 20;
+
+
+// var a = 20;
+// var b = 30;
+// var c = 50;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// {
+//   var a = 5;
+//   var b = 4;
+//   var c = 18;
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+//   {
+//     var a = 87;
+//     var b = 23;
+//     var c = 43;
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+//   }
+// }
+
+
+// var a = 20;
+// var b = 30;
+// var c = 50;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// {
+//   var a = 5;
+//   var b = 4;
+//   var c = 18;
+//   console.log(a);
+//   //   console.log(b);
+//   console.log(c);
+//   {
+//     var a = 87;
+//     var b = 23;
+//     var c = 43;
+//     console.log(a);
+//     console.log(b);
+//     // console.log(c);
+//   }
+// }
+
+
+// var a = 20;
+// var b = 30;
+// var c = 50;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// {
+//   var a = 5;
+//   var b = 4;
+//   var c = 18;
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+//   {
+//     var a = 87;
+//     var b = 23;
+//     var c = 43;
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+//   }
+// }
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// var a = 20;
+// var b = 30;
+// var c = 50;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// {
+//   let a = 5;
+  
+//   let c = 18;
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+//   {
+//     let a = 87;
+//     let b = 23;
+    
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+//   }
+// }
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// var x;
+// var x =20;
+// console.log(x);
+
+// let a;
+// let a=20;
+// console.log(a);
+//-------will give refernece error bcz of global kahani---------
+
+

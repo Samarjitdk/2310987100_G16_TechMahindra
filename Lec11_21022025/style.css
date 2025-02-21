@@ -1,0 +1,32 @@
+*{
+    display: flex;
+
+}
+
+html, body{
+    width: 100%;
+}
+
+.GGP{
+    width: 100%;
+    height: 100vh;
+    border: 5px solid brown;
+}
+
+.GP{
+    width: 75%;
+    height: 75vh;
+    border: 5px solid chartreuse;
+}
+
+.P{
+    width: 50%;
+    height: 50vh;
+    border: 5px solid burlywood;
+}
+
+.Child{
+    width: 25%;
+    height: 25vh;
+    border: 5px solid blueviolet;
+}
